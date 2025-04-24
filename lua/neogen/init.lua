@@ -97,6 +97,8 @@ end
 ---    }
 --- <
 ---   Default configurations for a languages can be found in `lua/neogen/configurations/<your_language>.lua`
+---   To use an existing configuration in another file type, you can do like: `cuda = require("neogen.configurations.cpp")` 
+---   for your language.
 ---
 ---  - To know which snippet engines are supported, take a look at |neogen-snippet-integration|.
 ---    Example: `snippet_engine = "luasnip"`
@@ -241,10 +243,12 @@ end
 ---
 --- Note: We will only document `major` and `minor` versions, not `patch` ones. (only X and Y in X.Y.z)
 ---
+--- ## 2.20.0~
+---   - Add support for `mini` snippet engine  ! (see |neogen-snippet-integration|)
 --- ## 2.19.0~
----    - Add support for julia (`julia`) ! (#185)
+---   - Add support for julia (`julia`) ! (#185)
 --- ## 2.18.0~
----    - Add tests cases to tests/ for annotation generation with basic support for python (#174)
+---   - Add tests cases to tests/ for annotation generation with basic support for python (#174)
 --- ## 2.17.1~
 ---   - Python raises now supports `raise foo.Bar()` syntax
 --- ## 2.17.0~
@@ -309,7 +313,7 @@ end
 ---     with multiple annotation conventions.
 ---@tag neogen-changelog
 ---@toc_entry Changes in neogen plugin
-neogen.version = "2.19.4"
+neogen.version = "2.20.0"
 --minidoc_afterlines_end
 
 return neogen
