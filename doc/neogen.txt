@@ -1,16 +1,16 @@
 ==============================================================================
 ------------------------------------------------------------------------------
 Table of contents:
-  Neogen's purpose....................................................|neogen|
-  The setup function..........................................|neogen.setup()|
-  Usage.........................................................|neogen-usage|
-  Configure the setup...................................|neogen-configuration|
-  Generate annotations.....................................|neogen.generate()|
-  Contributing................................................|neogen-develop|
-  Changes in neogen plugin..................................|neogen-changelog|
-  Use popular snippet engines.....................|neogen-snippet-integration|
-  Configurations for the template table........|neogen-template-configuration|
-  How to create/customize an annotation....................|neogen-annotation|
+  Neogen's purpose .................................................. |neogen|
+  The setup function ........................................ |neogen.setup()|
+  Usage ....................................................... |neogen-usage|
+  Configure the setup ................................. |neogen-configuration|
+  Generate annotations ................................... |neogen.generate()|
+  Contributing .............................................. |neogen-develop|
+  Changes in neogen plugin ................................ |neogen-changelog|
+  Use popular snippet engines ................... |neogen-snippet-integration|
+  Configurations for the template table ...... |neogen-template-configuration|
+  How to create/customize an annotation .................. |neogen-annotation|
 
 ------------------------------------------------------------------------------
                                                                         *neogen*
